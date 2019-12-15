@@ -1,5 +1,5 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/classify/index",
     "pages/cart/index",
@@ -8,8 +8,8 @@
     "pages/brand/index",
     "pages/list/index"
   ],
-  "window":{
-    "backgroundTextStyle":"white",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "环球小镇",
     "navigationBarBackgroundColor": "#292929",
@@ -21,27 +21,33 @@
     "selectedColor": "#f9f027",
     "borderStyle": "white",
     "backgroundColor": "#292929",
-    "list": [{
-      "pagePath": "pages/index/index",
-      "iconPath": "images/footer-icon-01.png",
-      "selectedIconPath": "images/footer-icon-01-active.png",
-      "text": "极速免税"
-    }, {
-      "pagePath": "pages/classify/index",
-      "iconPath": "images/footer-icon-02.png",
-      "selectedIconPath": "images/footer-icon-02-active.png",
-      "text": "分类"
-    }, {
-      "pagePath": "pages/cart/index",
-      "iconPath": "images/footer-icon-03.png",
-      "selectedIconPath": "images/footer-icon-03-active.png",
-      "text": "购物车"
-    }, {
-      "pagePath": "pages/my/index",
-      "iconPath": "images/footer-icon-04.png",
-      "selectedIconPath": "images/footer-icon-04-active.png",
-      "text": "我的"
-    }]
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/footer-icon-01.png",
+        "selectedIconPath": "images/footer-icon-01-active.png",
+        "text": "极速免税"
+      },
+      {
+        "pagePath": "pages/classify/index",
+        "iconPath": "images/footer-icon-02.png",
+        "selectedIconPath": "images/footer-icon-02-active.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/cart/index",
+        "iconPath": "images/footer-icon-03.png",
+        "selectedIconPath": "images/footer-icon-03-active.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "iconPath": "images/footer-icon-04.png",
+        "selectedIconPath": "images/footer-icon-04-active.png",
+        "text": "我的"
+      }
+    ]
   },
-  "debug": true
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
 }
